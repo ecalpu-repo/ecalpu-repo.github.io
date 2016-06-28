@@ -249,9 +249,8 @@
 .form-all .form-pagebreak-next,
 .form-all .qq-upload-button,
 .form-all .form-error-message {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
+    font-size: 20px;
 }
 
 .form-all .form-sub-label {
@@ -703,7 +702,6 @@ body {
 
 .logo {
     padding: 20px;
-    margin-bottom: 80px;
 }
 
 @media screen and (min-width: 480px) {
@@ -810,6 +808,10 @@ img {
     border-radius: 50%;
     left: 7px;
     top: 7px;
+}
+
+.form-radio-item input:checked + label {
+    font-weight: bold;
 }
 
 .form-checkbox-item label:hover {
