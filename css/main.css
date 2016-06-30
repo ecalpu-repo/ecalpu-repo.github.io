@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 .form-label-left {
     width: 150px !important;
 }
@@ -16,12 +16,14 @@
     margin: 0px auto;
     max-width: 600px;
     color: #555 !important;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
 
 .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header {
     color: #555;
+
+    font-size: 16px;
 }
 
 .form-label-left,
@@ -65,10 +67,19 @@
     font-size: 14px;
 }
 
+p.title,
 .form-label {
-    font-weight: normal;
     font-size: 20px;
-    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #393836;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 }
 
 .form-checkbox-item label,
@@ -119,7 +130,7 @@
 /* | */
 @media screen and (min-width: 768px) {
     .jotform-form {
-        padding: 60px 0;
+        padding: 60px 0 0 0;
     }
 }
 
@@ -676,12 +687,18 @@ li[data-type="control_image"] img {
 /*__INSPECT_SEPERATOR__*/
 body, html {
     background: #EE008C;
-    color: #777;
-    font-size: 18px;
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
     font-family: 'Lato', sans-serif;
       *{
         font-family: 'Lato', sans-serif !important;
       }
+
+      font-size: 16px;
+    color: #777777;
+    font-weight: inherit;
+    line-height: 1.66em;
 }
 
 .container {
@@ -696,6 +713,8 @@ body, html {
 
 .jotform-form {
     background: #fff;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 .title {
@@ -760,6 +779,8 @@ img {
     display: inline-block;
     min-height: 28px;
     line-height: 28px;
+
+
 }
 
 .form-radio-item input {
@@ -847,13 +868,16 @@ img {
 }
 
 .thanks b {
-    color: #000;
+
+    color: #393836;
 }
 
 .thanks a {
     color: #EE008C;
 }
 
-.thanks p {
+.p1,
+.thanks p {    font-size: 16px;
     color: #777777;
+    line-height: 1.66em;
 }
