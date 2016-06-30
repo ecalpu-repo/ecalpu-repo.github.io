@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
 .form-label-left {
     width: 150px !important;
 }
@@ -15,8 +16,8 @@
     margin: 0px auto;
     max-width: 600px;
     color: #555 !important;
-    font-family: 'Arial';
     font-size: 14px;
+    font-family: 'Lato', sans-serif;
 }
 
 .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header {
@@ -157,7 +158,7 @@
 .form-label-left,
 .form-label-right,
 .form-html {
-    color: #7f7f7f;
+    color: #777777;
 }
 
 .form-checkbox-item label,
@@ -283,7 +284,7 @@
     width: 221px;
     font-size: 1.15em;
     padding: 12px 18px;
-    font-family: "Arial", sans-serif;
+
     font-size: 18px;
     font-weight: bold;
     border: none;
@@ -310,7 +311,6 @@
 .form-all .form-pagebreak-next {
     font-size: 1em;
     padding: 9px 15px;
-    font-family: "Arial", sans-serif;
     font-size: 14px;
     font-weight: normal;
 }
@@ -343,10 +343,6 @@ h2 ~ .form-subHeader {
 .form-spinner input,
 .form-error-message {
     padding: 4px 3px 2px 3px;
-}
-
-.form-header-group {
-    font-family: "Arial", sans-serif;
 }
 
 .form-section {
@@ -519,9 +515,6 @@ h2 ~ .form-subHeader {
     width: 150px;
 }
 
-.form-label {
-    font-family: "Arial", sans-serif;
-}
 
 li[data-type="control_image"] div {
     text-align: left;
@@ -681,9 +674,14 @@ li[data-type="control_image"] img {
 /* | */
 
 /*__INSPECT_SEPERATOR__*/
-body {
+body, html {
     background: #EE008C;
+    color: #777;
     font-size: 18px;
+    font-family: 'Lato', sans-serif;
+      *{
+        font-family: 'Lato', sans-serif !important;
+      }
 }
 
 .container {
@@ -700,28 +698,8 @@ body {
     background: #fff;
 }
 
-.logo {
-    padding: 20px;
-}
-
-@media screen and (min-width: 480px) {
-    .logo {
-        padding: 0;
-    }
-}
-
 .title {
-    width: 100%;
-    margin-bottom: 80px;
-    border-bottom: 1px solid #d7d7d7;
-    padding: 20px 0;
-}
-
-@media screen and (min-width: 480px) {
-    .title {
-        width: 100%;
-        padding: 80px 0;
-    }
+  padding: 0 0 50px 0;
 }
 
 img {
@@ -877,5 +855,5 @@ img {
 }
 
 .thanks p {
-    color: #7f7f7f;
+    color: #777777;
 }
