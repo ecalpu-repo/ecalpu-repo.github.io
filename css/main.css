@@ -69,7 +69,6 @@
 
 p.title,
 .form-label {
-    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 20px;
@@ -80,6 +79,10 @@ p.title,
     padding-top: 0px;
     padding-bottom: 0px;
 
+}
+
+.form-label{
+  font-size: 14px;
 }
 
 .form-checkbox-item label,
@@ -855,7 +858,7 @@ img {
 
 .form-line.submit,
 .form-buttons-wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .footer a {
